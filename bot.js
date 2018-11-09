@@ -1,9 +1,10 @@
-﻿﻿const Discord = require('discord.js');
+﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "1";
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
+     client.user.setActivity("I Love PrinceCrafter",{type: 'WATCHING'})
+
 });
 
 client.on('ready', async() => {
