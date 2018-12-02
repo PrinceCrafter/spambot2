@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "2";
 
 client.on('ready', () => {
      client.user.setActivity("LoYo ♡.",{type: 'WATCHING'})
